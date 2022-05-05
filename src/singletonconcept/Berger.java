@@ -3,6 +3,7 @@ package singletonconcept;
 public class Berger {
 
     private Berger() {
+        System.out.println("hello");
     }
 
 

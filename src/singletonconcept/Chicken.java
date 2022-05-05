@@ -10,7 +10,7 @@ public class Chicken {
        Berger oldBerger=new Berger("kid");
         System.out.println(" my kids favourite  " +oldBerger.name);
         System.out.println("my berger is mac" + newBerger.name+"my berger price is"+ newBerger.bergerPrice );
-    // Berger.getBerger();
+     Berger.getBerger();
 
         System.out.println("my berger   name "  +newBerger.bergerPrice  );
 

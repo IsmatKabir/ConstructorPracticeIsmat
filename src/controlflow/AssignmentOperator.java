@@ -17,8 +17,26 @@ public class AssignmentOperator {
        // static int age = 20;
         // = is call assignment operator
         // == is call equal operator
+        //
 
+       // logicl conditional  operator
 
+        //   && both condition have to be true
+        //  ||   or  either condition must be true
+        //  ! not reverse boolean value of condition
+        // overloded method
+        //method name+ parameter = method signature
+        //expression = operands & operator
+        //operands=  values, variable
+        // operator = + = - * %
+
+        //equality operator
+        //< less than
+        // > greater than
+        //   <= less than equal
+        //  >= greater than equal
+       //  !=  not equal
+        //  ==
 
     }
 

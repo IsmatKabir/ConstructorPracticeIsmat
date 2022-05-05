@@ -12,12 +12,12 @@ public class Vaccine_Eligibility {
         System.out.println("Enter your gender");
         String gender = input.next();
         if (gender.equalsIgnoreCase("female") || (age > 12)) {
-            System.out.println("you are eligible for vaccine");
+            System.out.println("you are  eligible for vaccine");
 
         } else if (gender.equalsIgnoreCase("male") || (age > 12)) {
-            System.out.println("you are eligible for vaccine");
+            System.out.println("you are   eligible for vaccine");
         } else {
-            System.out.println("you are not eligible for vaccine");
+            System.out.println("you are  not eligible for vaccine");
         }
 
         input.close();

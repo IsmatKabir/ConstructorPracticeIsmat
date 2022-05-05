@@ -2,12 +2,12 @@ package controlflow;
 
 import java.util.Scanner;
 
-public class ControlflowInScanner {
+public class Score_If_Else_Scanner {
 
 
     public static void main(String[] args) {
 
-        ControlflowInScanner controlflow = new ControlflowInScanner();
+        Score_If_Else_Scanner controlflow = new Score_If_Else_Scanner();
         controlflow.getScore();
     }
 
@@ -16,7 +16,7 @@ public class ControlflowInScanner {
 
         System.out.println("Enter your score to get the grade");
         double score = scan.nextDouble();
-        if (score >= 94 && score <= 100) {
+        if (score >= 94 && score <= 105 ) {
 
             System.out.println("Excellent");
         } else if (score >= 90 && score <= 93) {
@@ -32,13 +32,15 @@ public class ControlflowInScanner {
             System.out.println("pass");
         } else if (score >= 60 && score <= 69) {
             System.out.println("poor");
-        } else if (score >= 50 && score <= 59)
+        } else if (score >= 50 && score <= 59){
             System.out.println("need to repeat");
 
         }
-
-
+      else{
+        System.out.println("its not applicable");
     }
+
+    }}
 
 
 

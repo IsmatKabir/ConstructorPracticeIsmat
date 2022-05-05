@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class BoosterDose_Scanner {
 
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
         System.out.println("booster dose eligibility");
 
